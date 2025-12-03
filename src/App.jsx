@@ -4,6 +4,7 @@ import Nav from "./pages/nav";
 import Product from './pages/product'
 import Persona from './pages/persona'
 import Contactos from './pages/contactos'
+import Compras from './pages/compras'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path='/product' element={<Product/>}/>
           <Route path='/persona' element={<Persona/>}/>
           <Route path='/contactos' element={<Contactos/>}/>
+          <Route path='/compras' element={<Compras/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

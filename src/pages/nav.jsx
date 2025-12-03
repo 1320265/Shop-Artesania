@@ -34,6 +34,7 @@ export default function Nav() {
                         <Link to="/persona" class="mdl-navigation__link">Persona</Link>
                         <Link to="/product" class="mdl-navigation__link">Product</Link>
                         <Link to="/contactos" class="mdl-navigation__link">Contactos</Link>
+                        <Link to="/compras" class="mdl-navigation__link">Compras</Link>
                     </nav>
                 </div>
                 <main class="mdl-layout__content">
